@@ -15,17 +15,7 @@ Este repositório contém a implementação da API, a configuração para testes
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Arquitetura da Aplicação](#arquitetura-da-aplicação)
 - [Arquitetura de Hospedagem em Nuvem (Sugestão)](#arquitetura-de-hospedagem-em-nuvem-sugestão)
-- [Como Rodar o Projeto](#como-rodar-o-projeto)
-  - [Executando com Docker Compose](#executando-com-docker-compose)
-  - [Executando a API Diretamente](#executando-a-api-diretamente)
-- [Testes](#testes)
-  - [Testes Unitários e de Integração](#testes-unitários-e-de-integração)
-  - [Testes de Carga](#testes-de-carga)
 - [Relatório de Teste de Carga](#relatório-de-teste-de-carga)
-- [Documentação Técnica Adicional](#documentação-técnica-adicional)
-- [Implantação](#implantação)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ---
 
@@ -74,8 +64,9 @@ A aplicação é dividida em camadas, cada uma com responsabilidades bem definid
 - **Injeção de Dependências:**  
   - Configurada via ASP.NET Core DI.
 
-![Application Architecture](./images/application_architecture.png)  
-*Placeholder: Diagrama da Arquitetura da Aplicação*
+![image](https://github.com/user-attachments/assets/290c8bc8-ec4d-4dcb-9840-724b381d9ffb)
+
+![image](https://github.com/user-attachments/assets/b4d4418d-c393-47b0-aaf7-dbd854d8acc9)
 
 Essa divisão permite separar responsabilidades, facilitar testes e garantir que cada camada possa evoluir de forma independente.
 
@@ -100,7 +91,12 @@ A arquitetura de hospedagem sugerida para o MVP utiliza serviços gerenciados da
 - **Rede:**  
   Todos os componentes críticos (API, RDS, ElastiCache) operam dentro de uma **AWS VPC** para segurança e isolamento.
 
-![Cloud Hosting Architecture](./images/cloud_architecture.png)  
-*Placeholder: Diagrama da Arquitetura de Hospedagem em Nuvem*
+![image](https://github.com/user-attachments/assets/4179c7f3-92c4-4274-aab9-abeb9cd16498)
+
 
 Essa solução foi escolhida para oferecer alta escalabilidade, segurança e desempenho, aproveitando os serviços gerenciados da AWS para reduzir a complexidade operacional.
+
+
+## Relatório de Teste de Carga
+![image](https://github.com/user-attachments/assets/7adff6f6-6085-4b6a-a204-ae914fea250b)
+
