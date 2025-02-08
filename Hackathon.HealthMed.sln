@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35605.110
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infrastructure", "04 - Infrastructure", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.HealthMed.API", "Hackathon.HealthMed.API\Hackathon.HealthMed.API.csproj", "{B4B522B9-95C0-48B0-B325-3CA998C061AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.HealthMed.Domain", "Hackathon.HealthMed.Domain\Hackathon.HealthMed.Domain.csproj", "{B0400F9A-FBDC-47FE-8EF7-78884CA39B48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.HealthMed.Application", "Hackathon.HealthMed.Application\Hackathon.HealthMed.Application.csproj", "{EB1744BA-F3E2-4985-9AAC-09D83F047FB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.HealthMed.Infrastrucuture", "Hackathon.HealthMed.Infrastrucuture\Hackathon.HealthMed.Infrastrucuture.csproj", "{64167AD4-3633-49F2-AACE-33924E3594DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.HealthMed.Application.DTO", "Hackathon.HealthMed.Application.DTO\Hackathon.HealthMed.Application.DTO.csproj", "{634430CE-47BB-468F-B615-48FFD1999106}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Tests", "05 - Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.HealthMed.Tests", "Hackathon.HealthMed.Tests\Hackathon.HealthMed.Tests.csproj", "{30A43EDB-1B21-4B60-A67F-F71500F34D70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4B522B9-95C0-48B0-B325-3CA998C061AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B522B9-95C0-48B0-B325-3CA998C061AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B522B9-95C0-48B0-B325-3CA998C061AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B522B9-95C0-48B0-B325-3CA998C061AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0400F9A-FBDC-47FE-8EF7-78884CA39B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0400F9A-FBDC-47FE-8EF7-78884CA39B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0400F9A-FBDC-47FE-8EF7-78884CA39B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0400F9A-FBDC-47FE-8EF7-78884CA39B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB1744BA-F3E2-4985-9AAC-09D83F047FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1744BA-F3E2-4985-9AAC-09D83F047FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1744BA-F3E2-4985-9AAC-09D83F047FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1744BA-F3E2-4985-9AAC-09D83F047FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64167AD4-3633-49F2-AACE-33924E3594DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64167AD4-3633-49F2-AACE-33924E3594DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64167AD4-3633-49F2-AACE-33924E3594DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64167AD4-3633-49F2-AACE-33924E3594DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634430CE-47BB-468F-B615-48FFD1999106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634430CE-47BB-468F-B615-48FFD1999106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634430CE-47BB-468F-B615-48FFD1999106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634430CE-47BB-468F-B615-48FFD1999106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A43EDB-1B21-4B60-A67F-F71500F34D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A43EDB-1B21-4B60-A67F-F71500F34D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A43EDB-1B21-4B60-A67F-F71500F34D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A43EDB-1B21-4B60-A67F-F71500F34D70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4B522B9-95C0-48B0-B325-3CA998C061AC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E1}
+		{B0400F9A-FBDC-47FE-8EF7-78884CA39B48} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E3}
+		{EB1744BA-F3E2-4985-9AAC-09D83F047FB0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E2}
+		{64167AD4-3633-49F2-AACE-33924E3594DD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E4}
+		{634430CE-47BB-468F-B615-48FFD1999106} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E2}
+		{30A43EDB-1B21-4B60-A67F-F71500F34D70} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EB835FA-F6B9-4250-B3E5-B1B872CB64F3}
+	EndGlobalSection
+EndGlobal

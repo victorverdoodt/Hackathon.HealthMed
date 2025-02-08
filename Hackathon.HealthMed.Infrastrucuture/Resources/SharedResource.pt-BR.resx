@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllergyIntoleranceSeverity:Mild" xml:space="preserve">
+    <value>Leve</value>
+  </data>
+  <data name="AllergyIntoleranceSeverity:Moderate" xml:space="preserve">
+    <value>Moderado</value>
+  </data>
+  <data name="AllergyIntoleranceSeverity:Severe" xml:space="preserve">
+    <value>Grave</value>
+  </data>
+  <data name="CarePlanType:ByFrequency" xml:space="preserve">
+    <value>Por frequência</value>
+  </data>
+  <data name="CarePlanType:ByValue" xml:space="preserve">
+    <value>Por valor</value>
+  </data>
+  <data name="FHIRFetusGenderEnum:Male" xml:space="preserve">
+    <value>Masculino</value>
+  </data>
+  <data name="FHIRFetusGenderEnum:Female" xml:space="preserve">
+    <value>Feminino</value>
+  </data>
+  <data name="FHIRFetusGenderEnum:Unknown" xml:space="preserve">
+    <value>Não especificado</value>
+  </data>
+  <data name="FHIRObservationCategoryEnum:VitalSigns" xml:space="preserve">
+    <value>Sinais vitais</value>
+  </data>
+  <data name="FHIRObservationCategoryEnum:Laboratory" xml:space="preserve">
+    <value>Resultados laboratoriais</value>
+  </data>
+  <data name="FHIRObservationCategoryEnum:Imaging" xml:space="preserve">
+    <value>Exames de imagem</value>
+  </data>
+  <data name="FHIRObservationCategoryEnum:Pregnancy" xml:space="preserve">
+    <value>Observações da gravidez</value>
+  </data>
+  <data name="FHIRObservationCategoryEnum:SocialHistory" xml:space="preserve">
+    <value>Histórico social</value>
+  </data>
+  <data name="FHIRObservationCategoryEnum:Procedure" xml:space="preserve">
+    <value>Procedimento</value>
+  </data>
+  <data name="FHIRObservationCategoryEnum:Appointment" xml:space="preserve">
+    <value>Consulta</value>
+  </data>
+  <data name="FHIRObservationCategoryEnum:Therapy" xml:space="preserve">
+    <value>Terapia</value>
+  </data>
+  <data name="FHIRStatusEnum:Active" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="FHIRStatusEnum:Completed" xml:space="preserve">
+    <value>Concluído</value>
+  </data>
+  <data name="FHIRStatusEnum:Incomplete" xml:space="preserve">
+    <value>Incompleto</value>
+  </data>
+  <data name="FHIRStatusEnum:EnteredInError" xml:space="preserve">
+    <value>Entrada errada</value>
+  </data>
+  <data name="FHIRStatusEnum:Cancelled" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="FHIRTaskTypeEnum:Daily" xml:space="preserve">
+    <value>Tarefa diária</value>
+  </data>
+  <data name="FHIRTaskTypeEnum:Weekly" xml:space="preserve">
+    <value>Tarefa semanal</value>
+  </data>
+  <data name="FHIRTaskTypeEnum:Monthly" xml:space="preserve">
+    <value>Tarefa mensal</value>
+  </data>
+  <data name="FHIRTaskTypeEnum:OneTime" xml:space="preserve">
+    <value>Tarefa única</value>
+  </data>
+  <data name="MeasurementType:Glucose" xml:space="preserve">
+    <value>Glicose</value>
+  </data>
+  <data name="MeasurementType:Water" xml:space="preserve">
+    <value>Água</value>
+  </data>
+  <data name="MeasurementType:Sleep" xml:space="preserve">
+    <value>Sono</value>
+  </data>
+  <data name="MeasurementType:Weight" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="MeasurementType:Other" xml:space="preserve">
+    <value>Outro</value>
+  </data>
+  <data name="RecurrencePattern:None" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="RecurrencePattern:Daily" xml:space="preserve">
+    <value>Diário</value>
+  </data>
+  <data name="RecurrencePattern:Weekly" xml:space="preserve">
+    <value>Semanal</value>
+  </data>
+  <data name="RecurrencePattern:Monthly" xml:space="preserve">
+    <value>Mensal</value>
+  </data>
+  <data name="UserType:Patient" xml:space="preserve">
+    <value>Paciente</value>
+  </data>
+  <data name="UserType:Professional" xml:space="preserve">
+    <value>Profissional</value>
+  </data>
+  <data name="VerificationStatus:Unconfirmed" xml:space="preserve">
+    <value>Não confirmado</value>
+  </data>
+  <data name="VerificationStatus:Confirmed" xml:space="preserve">
+    <value>Confirmado</value>
+  </data>
+  <data name="VerificationStatus:Refuted" xml:space="preserve">
+    <value>Refutado</value>
+  </data>
+  <data name="VerificationStatus:EnteredInError" xml:space="preserve">
+    <value>Entrada errada</value>
+  </data>
+  <data name="CareTeamNameEmpty" xml:space="preserve">
+    <value>O Nome do time de cuidados não pode ser vazio</value>
+  </data>
+  <data name="EntityNotFound" xml:space="preserve">
+    <value>Entidade não encontrada.</value>
+  </data>
+  <data name="CareTeamUserAlreadyMember" xml:space="preserve">
+    <value>Usuario já é membro desse time.</value>
+  </data>
+  <data name="CareTeamUserNotMember" xml:space="preserve">
+    <value>Usuario não é membro desse time.</value>
+  </data>
+  <data name="CareTeamCantRemove" xml:space="preserve">
+    <value>Cannot remove the last member of the care team.</value>
+  </data>
+  <data name="AccessNotDefined" xml:space="preserve">
+    <value>Paciente encontrado. Cadastre um acesso.</value>
+  </data>
+  <data name="AccessAlreadyExists" xml:space="preserve">
+    <value>Acesso já definido para este paciente.</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>Senha inválida.</value>
+  </data>
+</root>

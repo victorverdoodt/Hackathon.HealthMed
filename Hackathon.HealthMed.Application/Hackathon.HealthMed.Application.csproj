@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hackathon.HealthMed.Application.DTO\Hackathon.HealthMed.Application.DTO.csproj" />
+    <ProjectReference Include="..\Hackathon.HealthMed.Domain\Hackathon.HealthMed.Domain.csproj" />
+    <ProjectReference Include="..\Hackathon.HealthMed.Infrastrucuture\Hackathon.HealthMed.Infrastrucuture.csproj" />
+  </ItemGroup>
+
+</Project>

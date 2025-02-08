@@ -1,0 +1,30 @@
+﻿name: Build & Test 🧪
+
+on:
+  push:
+    branches:
+      - master
+
+env:
+  DOTNET_VERSION: '8.0.x'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup .NET 📦
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Install dependencies 📂
+        run: dotnet restore Hackathon.HealthMed.API
+
+      - name: Build 🧱
+        run: dotnet build Hackathon.HealthMed.API --configuration Release --no-restore
+
+      - name: Test 🧪
+        run: dotnet test Hackathon.HealthMed.API --configuration Release --no-build --filter "Category=Unit"
