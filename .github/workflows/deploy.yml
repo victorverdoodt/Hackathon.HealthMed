@@ -30,4 +30,4 @@ jobs:
         run: dotnet test Hackathon.HealthMed.API --configuration Release --no-build --filter "Category=Unit"
         
       - name: Build Docker Image 🐳
-        run: docker build -t hackathon-healthmed-api:latest .
+        run: docker build -t hackathon-healthmed-api:latest -f Hackathon.HealthMed.API/Dockerfile Hackathon.HealthMed.API
