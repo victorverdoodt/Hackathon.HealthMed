@@ -66,6 +66,7 @@ A aplicação é dividida em camadas, cada uma com responsabilidades bem definid
 
 ![image](https://github.com/user-attachments/assets/290c8bc8-ec4d-4dcb-9840-724b381d9ffb)
 
+![image](https://github.com/user-attachments/assets/b4d4418d-c393-47b0-aaf7-dbd854d8acc9)
 
 Essa divisão permite separar responsabilidades, facilitar testes e garantir que cada camada possa evoluir de forma independente.
 
