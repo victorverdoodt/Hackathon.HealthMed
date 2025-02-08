@@ -6,8 +6,6 @@ using Hackathon.HealthMed.Infrastrucuture.Databases;
 using Hackathon.HealthMed.Infrastrucuture.Repositories;
 using Hackathon.HealthMed.Infrastrucuture.Services;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Hackathon.HealthMed.Application.Services
 {
@@ -20,8 +18,8 @@ namespace Hackathon.HealthMed.Application.Services
         private readonly ICacheService _cacheService;
 
         public SchedulingService(
-            SchedulingContext context, 
-            IAppointmentRepository appointmentRepository, 
+            SchedulingContext context,
+            IAppointmentRepository appointmentRepository,
             NotificationContextService notificationContext,
             ICacheService cacheService)
         {

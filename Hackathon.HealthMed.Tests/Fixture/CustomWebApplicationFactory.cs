@@ -1,9 +1,6 @@
-﻿using System.Linq;
-using System.Threading.Tasks;
-using Hackathon.HealthMed.API;
+﻿using Hackathon.HealthMed.API;
 using Hackathon.HealthMed.Domain.Models.Entities;
 using Hackathon.HealthMed.Domain.Models.Enum;
-using Hackathon.HealthMed.Domain.Models.Interfaces;
 using Hackathon.HealthMed.Infrastrucuture.Databases;
 using Hackathon.HealthMed.Infrastrucuture.Helpers;
 using Microsoft.AspNetCore.Hosting;

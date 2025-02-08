@@ -1,6 +1,4 @@
-﻿using System.Data.Common;
-using System.Data;
-using System.Threading.Tasks;
+﻿using Hackathon.HealthMed.Application.DTO.Models.Response;
 using Hackathon.HealthMed.Application.Services;
 using Hackathon.HealthMed.Domain.Models.Entities;
 using Hackathon.HealthMed.Domain.Models.Enum;
@@ -9,9 +7,9 @@ using Hackathon.HealthMed.Infrastrucuture.Repositories;
 using Hackathon.HealthMed.Infrastrucuture.Services;
 using Hackathon.HealthMed.Tests.Fixture;
 using Microsoft.EntityFrameworkCore;
-using Xunit;
 using Npgsql;
-using Hackathon.HealthMed.Application.DTO.Models.Response;
+using System.Data;
+using System.Data.Common;
 
 namespace Hackathon.HealthMed.Tests.Unit
 {
@@ -51,7 +49,7 @@ namespace Hackathon.HealthMed.Tests.Unit
 
             var notificationService = new NotificationContextService();
             var appointmentRepository = new AppointmentRepository(context);
-            var cacheService = new FakeCacheService(); 
+            var cacheService = new FakeCacheService();
             var service = new SchedulingService(context, appointmentRepository, notificationService, cacheService);
 
             // Cria um médico e um paciente.

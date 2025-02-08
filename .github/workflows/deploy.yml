@@ -28,3 +28,6 @@ jobs:
 
       - name: Test 🧪
         run: dotnet test Hackathon.HealthMed.API --configuration Release --no-build --filter "Category=Unit"
+        
+      - name: Build Docker Image 🐳
+        run: docker build -t hackathon-healthmed-api:latest .

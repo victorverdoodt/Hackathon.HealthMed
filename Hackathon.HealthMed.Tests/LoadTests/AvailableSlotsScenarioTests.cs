@@ -3,10 +3,8 @@ using NBomber.Contracts.Stats;
 using NBomber.CSharp;
 using NBomber.Data.CSharp;
 using Newtonsoft.Json;
-using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
-using Xunit;
 
 namespace Hackathon.HealthMed.Tests.LoadTests
 {

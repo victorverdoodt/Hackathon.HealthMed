@@ -118,8 +118,8 @@ namespace Hackathon.HealthMed.Tests.Integration
             DateTime endDate = DateTime.UtcNow.Date.AddDays(7);
             var createRuleRequest = new
             {
-                scheduleType = (int)ScheduleType.Available,     
-                frequencyType = (int)FrequencyType.Daily,        
+                scheduleType = (int)ScheduleType.Available,
+                frequencyType = (int)FrequencyType.Daily,
                 startDate = startDate.ToString("yyyy-MM-dd"),
                 endDate = endDate.ToString("yyyy-MM-dd"),
                 startTimeOfDay = "08:00:00",

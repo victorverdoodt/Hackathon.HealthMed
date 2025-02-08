@@ -1,0 +1,17 @@
+2025-02-08 19:45:41.719 -03:00 [INF] [ThreadId:55] NBomber 5.8.2 started a new session: 2025-02-08_22.45.65_session_19a458a1
+2025-02-08 19:45:41.773 -03:00 [INF] [ThreadId:55] NBomber started as single node
+2025-02-08 19:45:41.777 -03:00 [INF] [ThreadId:55] License validation....
+2025-02-08 19:45:41.778 -03:00 [WRN] [ThreadId:55] THIS VERSION IS FREE ONLY FOR PERSONAL USE. You can't use it for an organization.
+2025-02-08 19:45:41.792 -03:00 [INF] [ThreadId:55] Reports folder: C:\Users\victo\source\repos\Hackathon.HealthMed\Hackathon.HealthMed.Tests\bin\Debug\net8.0\nbomber_reports
+2025-02-08 19:45:41.794 -03:00 [INF] [ThreadId:55] Plugins: no plugins were loaded
+2025-02-08 19:45:41.794 -03:00 [INF] [ThreadId:55] Reporting sinks: no reporting sinks were loaded
+2025-02-08 19:45:41.795 -03:00 [INF] [ThreadId:55] Starting init...
+2025-02-08 19:45:41.805 -03:00 [INF] [ThreadId:55] Target scenarios: AvailableSlotsScenario
+2025-02-08 19:45:41.808 -03:00 [INF] [ThreadId:55] Init finished
+2025-02-08 19:45:41.865 -03:00 [INF] [ThreadId:55] Starting warm up...
+2025-02-08 19:45:41.867 -03:00 [INF] [ThreadId:55] Warm up for scenarios: AvailableSlotsScenario
+2025-02-08 19:45:41.871 -03:00 [INF] [ThreadId:55] Warm up duration: 00:00:30
+2025-02-08 19:46:13.241 -03:00 [INF] [ThreadId:97] Starting bombing...
+2025-02-08 19:58:50.455 -03:00 [INF] [ThreadId:16] Calculating final statistics...
+2025-02-08 19:58:51.845 -03:00 [INF] [ThreadId:98] Reports saved in folder: C:\Users\victo\source\repos\Hackathon.HealthMed\Hackathon.HealthMed.Tests\bin\Debug\net8.0\nbomber_reports
+2025-02-08 19:58:51.848 -03:00 [WRN] [ThreadId:98] THIS VERSION IS FREE ONLY FOR PERSONAL USE. You can't use it for an organization.
